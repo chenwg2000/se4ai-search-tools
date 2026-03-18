@@ -1,0 +1,31 @@
+{
+  "tool": "serpapi",
+  "query": "Anthropic MCP documentation",
+  "engine": "bing",
+  "location": null,
+  "timestamp": "2026-03-19T05:32:17.375529",
+  "result_count": 3,
+  "results": [
+    {
+      "title": "Home \\\\ Anthropic",
+      "link": "https://www.anthropic.com/",
+      "snippet": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "displayed_link": "https://www.anthropic.com",
+      "source": "bing"
+    },
+    {
+      "title": "Anthropic - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Anthropic",
+      "snippet": "Anthropic PBC is an American artificial intelligence (AI) company headquartered in San Francisco. It has developed a family of large language models (LLMs) named Claude.",
+      "displayed_link": "https://en.wikipedia.org › wiki › Anthropic",
+      "source": "bing"
+    },
+    {
+      "title": "The AI for Problem Solvers | Claude by Anthropic",
+      "link": "https://claude.com/product/overview",
+      "snippet": "Claude provides expert-level collaboration on the things you need to get done—from coding a product to critical data analysis. Like an expert in your pocket, collaborating with Claude expands what you can …",
+      "displayed_link": "https://claude.com › product",
+      "source": "bing"
+    }
+  ]
+}

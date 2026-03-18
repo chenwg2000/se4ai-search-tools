@@ -1,0 +1,35 @@
+{
+  "tool": "tavily",
+  "query": "Latest AI news 2025",
+  "timestamp": "2026-03-19T05:32:35.800142",
+  "result_count": 4,
+  "results": [
+    {
+      "title": "AI Answer",
+      "link": "",
+      "snippet": "Meta unveiled four new AI chips for 2025, set for deployment by 2027. Major AI acquisitions and advancements in virtual assistants occurred in 2025. The year saw significant innovations in AI technology.",
+      "is_ai_answer": true
+    },
+    {
+      "title": "Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025",
+      "link": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "snippet": "Summary: Meta revealed four new generations of custom AI chips, the MTIA 300, 400, 450, and 500, to be deployed across its data centers by end of 2027.",
+      "score": 0.9998233,
+      "raw_content": null
+    },
+    {
+      "title": "The Biggest Week For AI News in 2025 (So Far) - YouTube",
+      "link": "https://www.youtube.com/watch?v=z17HXdNYti0&vl=en-US",
+      "snippet": "Imagine Launches for SuperGrok and Premium+ Subscribers with Latest ... The Biggest Week For AI News in 2025 (So Far). 97K views · 7 months",
+      "score": 0.99971086,
+      "raw_content": null
+    },
+    {
+      "title": "The 10 Biggest AI News Stories Of 2025 - CRN",
+      "link": "https://www.crn.com/news/ai/2025/the-10-biggest-ai-news-stories-of-2025",
+      "snippet": "The AI industry in 2025 saw big-money acquisitions, advancements in virtual assistants and agent orchestration, and new innovations in",
+      "score": 0.99950826,
+      "raw_content": null
+    }
+  ]
+}

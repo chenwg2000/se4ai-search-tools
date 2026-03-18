@@ -1,0 +1,35 @@
+{
+  "tool": "tavily",
+  "query": "What is Model Context Protocol?",
+  "timestamp": "2026-03-19T05:32:02.691519",
+  "result_count": 4,
+  "results": [
+    {
+      "title": "AI Answer",
+      "link": "",
+      "snippet": "The Model Context Protocol is an open standard for secure connections between AI tools and data sources. It was introduced by Anthropic to facilitate standardized interactions. It's designed to enhance the security and efficiency of AI applications.",
+      "is_ai_answer": true
+    },
+    {
+      "title": "Introducing the Model Context Protocol - Anthropic",
+      "link": "https://www.anthropic.com/news/model-context-protocol",
+      "snippet": "The Model Context Protocol is an open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools.",
+      "score": 0.99996495,
+      "raw_content": null
+    },
+    {
+      "title": "Model Context Protocol - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+      "snippet": "The Model Context Protocol (MCP) is an open standard and open-source framework introduced by Anthropic in November 2024 to standardize the way artificial",
+      "score": 0.9999417,
+      "raw_content": null
+    },
+    {
+      "title": "Model Context Protocol",
+      "link": "https://modelcontextprotocol.io/docs/getting-started/intro",
+      "snippet": "MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems. Using MCP, AI applications like Claude or ChatGPT",
+      "score": 0.999936,
+      "raw_content": null
+    }
+  ]
+}

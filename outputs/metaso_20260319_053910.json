@@ -1,0 +1,36 @@
+{
+  "tool": "metaso",
+  "query": "什么是MCP协议?",
+  "scope": "webpage",
+  "timestamp": "2026-03-19T05:39:10.991752",
+  "result_count": 3,
+  "results": [
+    {
+      "title": "什么是MCP",
+      "link": "https://www.bilibili.com/read/mobile?id=41511458",
+      "snippet": "什么是MCP\n最近 MCP 协议颇为热门，那么什么是MCP呢？\nMCP的全称是模型上下文协议（Model Context Protocol），是由Anthropic推出的一种开放标准协议。\n其设计目的在于让大型语言模型（LLMs）能够与外部的数据源和工具实现无缝交互。\nMCP就像是为AI提供了一个“通用插头”，使得这些智能模型可以像我们使用USB接口一样，轻松连接到各种不同的设备和服务上。\nMCP的定义如下：\n> MCP 是一个开放协议，用于标准化应用程序向大语言模型提供上下文的方式。",
+      "source": "metaso",
+      "score": "high",
+      "position": 1,
+      "date": "2025年04月30日"
+    },
+    {
+      "title": "三分钟带你全面理解MCP",
+      "link": "https://juejin.cn/post/7501502104331386930",
+      "snippet": "什么是MCP？\nMCP（Model Context Protocol，模型上下文协议）是一种由 Anthropic 公司推出的一个开放标准协议，旨在标准化大型语言模型（LLM）与外部数据源和工具的集成，其核心目标是解决“MxN”问题，即将 M 个不同的 LLM 与 N 个不同的工具集成的组合复杂性。\n通过提供一个通用的开放标准，进而取代了 Function Calling 碎片化的定制集成。\nMCP整体架构\nMCP组成部分",
+      "source": "metaso",
+      "score": "high",
+      "position": 2,
+      "date": "2025-05-07"
+    },
+    {
+      "title": "什么是MCP（Model Context Protocol）？",
+      "link": "https://juejin.cn/post/7482265923920068635",
+      "snippet": "- 什么是mcp（modelcontextprotocol）\n- mcp和manus的关系\n- function calling\n- mcp server\n- mcp client\n- 结语\n1. 什么是MCP（Model Context Protocol）？\nModel Context Protocol（模型上下文协议）是由Anthropic于2024年11月推出的开放标准，旨在建立大型语言模型（LLM）与外部数据源/工具间的统一通信协议。其核心价值在于：\n- 协议标准化：定义LLM与外部系统交互的通用接口规范",
+      "source": "metaso",
+      "score": "high",
+      "position": 3,
+      "date": "2025-03-17"
+    }
+  ]
+}

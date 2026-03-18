@@ -1,0 +1,17 @@
+{
+  "tool": "serpapi",
+  "query": "What is Model Context Protocol?",
+  "engine": "google",
+  "location": null,
+  "timestamp": "2026-03-19T05:32:16.447986",
+  "result_count": 1,
+  "results": [
+    {
+      "title": "Introducing the Model Context Protocol",
+      "link": "https://www.anthropic.com/news/model-context-protocol",
+      "snippet": "The Model Context Protocol is an open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools.",
+      "displayed_link": "https://www.anthropic.com › news › model-context-pro...",
+      "source": "google"
+    }
+  ]
+}

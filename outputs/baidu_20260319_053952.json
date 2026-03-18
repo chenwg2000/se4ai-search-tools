@@ -1,0 +1,35 @@
+{
+  "tool": "baidu",
+  "query": "什么是Model Context Protocol?",
+  "timestamp": "2026-03-19T05:39:52.806171",
+  "result_count": 3,
+  "results": [
+    {
+      "title": "告别 AI 远控两张皮,向日葵 MCP 凭什么领跑?",
+      "link": "https://baijiahao.baidu.com/s?id=1859969700248286542&wfr=spider&for=pc",
+      "snippet": " 近期,向日葵远程控制发布 MCP(Model Context Protocol,模型上下文协议)服务,将其成熟的远程控制核心能力,封装为AI大模型可直接理解、标准化调用的接口,实现了自然语言驱动的远程电脑自动化操作:只需一句指令,AI 即可完成设备检索、远程连接、桌面操作、状态反馈的全流程无人值守执行,真正让 AI 拥有了操控物理设备的 “数字手脚”。",
+      "source": "baidu",
+      "date": "2026-03-18 11:42:12",
+      "website": "百家号",
+      "authority_score": 0.5
+    },
+    {
+      "title": "CIO必须了解的智能体协议:多样化发展与互操作性挑战",
+      "link": "https://news.sina.cn/ai/2026-03-18/detail-inhrkskt7581004.d.html",
+      "snippet": " 最突出的是模型上下文协议(Model Context Protocol)。由Anthropic构建,MCP决定智能体如何访问资源、工具和信息,如API或数据库。MCP主要针对共享信任边界内或单一应用程序栈(如Claude Desktop)中的智能体进行优化。",
+      "source": "baidu",
+      "date": "2026-03-18 13:24:52",
+      "website": "新浪网",
+      "authority_score": 0.5
+    },
+    {
+      "title": "什么是MCP(Model Context Protocol) ",
+      "link": "https://nic.zjtu.edu.cn/content/mxzs/202506/2395.html",
+      "snippet": " MCP(Model Context Protocol,模型上下文协议)是 Anthropic 推出的开放协议,让大型语言模型(LLM)与外部工具和数据源实现无缝通信。采用客户端–服务器架构,通过标准化接口,让LLM应用能安全、高效地连接到各种数据源和工具,如数据库、文件系统、第三方API等。MCP的核心优势在于统一性、安全性和扩展性。支持工具、资源和提示三种功能,能帮助用户完成多种任务,如文件管理、信息查询、沟通辅助等。MCP协议为AI与外部数据资源的连接提供了标准化桥梁,有望推动AI应用的进一步发展和普及。 什么是模型上下文协议 模型上下文协议(Model Context Protocol,MCP)是一种开放协议,让大型语言模型(LLM)与外部工具和数据源实现无缝通信。通过统一的协议实现各类数据源的插件式接入,避免为每个数据源单独编写代码。确保在数据交互过程中,敏感信息(如API密钥、用户数据)得到充分保护。 模型上下文协议的工作原理 MCP(Model Context Protocol,模型上下文协议)的工作原理基于客户端–服务器架构,通过标准化的通信协议实现大型语言模型(LLM)与外部工具和数据源的无缝集成。",
+      "source": "baidu",
+      "date": "2025-06-21 00:00:00",
+      "website": "无",
+      "authority_score": 1
+    }
+  ]
+}

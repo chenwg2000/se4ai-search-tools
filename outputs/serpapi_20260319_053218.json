@@ -1,0 +1,31 @@
+{
+  "tool": "serpapi",
+  "query": "weather today",
+  "engine": "google",
+  "location": "New York, United States",
+  "timestamp": "2026-03-19T05:32:18.000597",
+  "result_count": 3,
+  "results": [
+    {
+      "title": "Weather Forecast and Conditions for New York City ...",
+      "link": "https://weather.com/weather/today/l/a496cfcba367ffae60ccfdc94e31bcf3d0a12ac6515336dbd274f381a932abbc",
+      "snippet": "Rain and wind early. Decreasing clouds overnight. Low 36F. Winds SW at 20 to 30 mph. Chance of rain 100%. Winds could occasionally gust over 40 mph.",
+      "displayed_link": "https://weather.com › weather › today",
+      "source": "google"
+    },
+    {
+      "title": "NWS Forecast Office New York, NY",
+      "link": "https://www.weather.gov/okx/",
+      "snippet": "Heat Wave Continues in the West; Critical Fire Weather Conditions in the High Plains · NWS Forecast Office New York, NY.",
+      "displayed_link": "https://www.weather.gov › okx",
+      "source": "google"
+    },
+    {
+      "title": "Weather Today for New York, NY",
+      "link": "https://www.accuweather.com/en/us/new-york/10021/weather-today/349727",
+      "snippet": "Day · Morning · Afternoon. Night. 32°Lo. RealFeel® 32°. Turning cloudy. RealFeel®32°. Max UV Index0 (). WindSSW at 4 mph. Wind Gusts ...",
+      "displayed_link": "https://www.accuweather.com › new-york › weather-to...",
+      "source": "google"
+    }
+  ]
+}

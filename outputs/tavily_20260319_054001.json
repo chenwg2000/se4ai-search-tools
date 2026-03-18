@@ -1,0 +1,35 @@
+{
+  "tool": "tavily",
+  "query": "Latest AI news 2025",
+  "timestamp": "2026-03-19T05:40:01.668039",
+  "result_count": 4,
+  "results": [
+    {
+      "title": "AI Answer",
+      "link": "",
+      "snippet": "In 2025, AI saw major acquisitions, significant advancements in virtual assistants, and notable hardware innovations. Google announced Gemini updates and new AI features. The year highlighted AI's impact on digital safety and creativity.",
+      "is_ai_answer": true
+    },
+    {
+      "title": "The 10 Biggest AI News Stories Of 2025 - CRN",
+      "link": "https://www.crn.com/news/ai/2025/the-10-biggest-ai-news-stories-of-2025",
+      "snippet": "The AI industry in 2025 saw big-money acquisitions, advancements in virtual assistants and agent orchestration, and new innovations in hardware",
+      "score": 0.8479807,
+      "raw_content": null
+    },
+    {
+      "title": "60 of our biggest AI announcements in 2025 - Google Blog",
+      "link": "https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025/",
+      "snippet": "Gemini updates, AI Mode in Search and new hardware were just a few of the highlights. Look forward to more AI advancements from Google in 2026.",
+      "score": 0.8194462,
+      "raw_content": null
+    },
+    {
+      "title": "The top AI stories from 2025 - The World Economic Forum",
+      "link": "https://www.weforum.org/stories/2025/12/the-top-ai-stories-from-2025/",
+      "snippet": "1. No sector left untouched · 2. AI drives digital safety · 3. The rise and risks of AI agents · 4. Creativity's new role in an AI age.",
+      "score": 0.8091708,
+      "raw_content": null
+    }
+  ]
+}

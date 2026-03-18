@@ -1,0 +1,35 @@
+{
+  "tool": "tavily",
+  "query": "Python async/await tutorial",
+  "timestamp": "2026-03-19T05:40:03.739782",
+  "result_count": 4,
+  "results": [
+    {
+      "title": "AI Answer",
+      "link": "",
+      "snippet": "Python's async/await syntax allows for asynchronous programming, enabling efficient handling of I/O-bound tasks. Use `async` to define coroutines and `await` to pause them. `asyncio` manages event loops and coroutine scheduling.",
+      "is_ai_answer": true
+    },
+    {
+      "title": "Python Async/Await",
+      "link": "https://www.pythontutorial.net/python-concurrency/python-async-await/",
+      "snippet": "**Summary**: in this tutorial, you will learn about Python coroutines and how to use the Python `async` and `await` keywords to create and pause coroutines. To create and pause a coroutine, you use the Python `async` and `await` keywords:. The following uses the `asyncio.run()` function to execute the `square()` coroutine and get the result:. ## Pausing a coroutine with Python await keyword #. The `await` keyword pauses the execution of a coroutine. The `await` keyword causes the `my_coroutine()` to execute, waits for the code to be completed, and returns a result. The following example shows how to use the `await` keyword to pause a coroutine:. First, call the `square()` coroutine using the `await` keyword. The `await` keyword will pause the execution of the `main()` coroutine, wait for the `square()` coroutine to complete, and return the result:. The following statement uses the `run()` function to execute the `main()` coroutine and manage the event loop:.",
+      "score": 0.999969,
+      "raw_content": null
+    },
+    {
+      "title": "Python's asyncio: A Hands-On Walkthrough",
+      "link": "https://realpython.com/async-io-python/",
+      "snippet": "The core building blocks of async I/O in Python are awaitable objects—most often coroutines—that an event loop schedules and executes asynchronously. In this tutorial, you’ll learn how Python `asyncio` works, how to define and run coroutines, and when to use asynchronous programming for better performance in applications that perform I/O-bound tasks. * Python’s **`asyncio`** provides a framework for writing single-threaded **concurrent code** using **coroutines**, **event loops**, and **non-blocking I/O operations**. In `main()`, you use `asyncio.gather()` to run the chained coroutines by executing `get_user_with_posts()` as many times as the number of user IDs you have. You’ve gained a solid understanding of Python’s `asyncio` library and the `async` and `await` syntax, learning how asynchronous programming enables efficient management of multiple I/O-bound tasks within a single thread. You use `asyncio` to write concurrent code with the `async` and `await` keywords, allowing you to efficiently manage multiple I/O-bound tasks in a single thread without blocking your program.",
+      "score": 0.9998785,
+      "raw_content": null
+    },
+    {
+      "title": "Python Tutorial: AsyncIO - Complete Guide to ...",
+      "link": "https://www.youtube.com/watch?v=oAkLSJNr5zY",
+      "snippet": "In this video, we'll be learning all about AsyncIO in Python and how to write asynchronous code using the async/await syntax.",
+      "score": 0.9998273,
+      "raw_content": null
+    }
+  ]
+}

@@ -37,22 +37,24 @@ def save_results(tool_name, query, results):
 
 
 def test_baidu_search():
-    """Test Baidu search with 3 different queries."""
+    """Test Baidu search with 5 different queries."""
     print("\n  Testing Baidu Search Tool")
     print("  " + "-" * 50)
-    
+
     tool = BaiduSearchTool()
-    
+
     if not tool.api_key:
         print("  ✗ BAIDU_API_KEY not set")
         return False
-    
+
     print(f"  API Key: {tool.api_key[:30]}...")
-    
+
     queries = [
-        ("Chinese Technology", "什么是Model Context Protocol?"),
-        ("Mixed Language", "Python programming 教程"),
-        ("Chinese Events", "人工智能最新发展"),
+        ("AI News China", "DeepSeek 2026��最新进展与市场影响"),
+        ("AI Marketing", "品牌如何利用AI做内容营销和广告创意"),
+        ("Market Landscape", "中国大模型市场竞争格局2026"),
+        ("Business Tools", "AI营销自动化工具推荐2026"),
+        ("Policy News", "中国人工智能监管政策最新动态2026"),
     ]
     
     all_passed = True
@@ -63,7 +65,7 @@ def test_baidu_search():
         print(f"  Query: '{query}'")
         
         try:
-            results = tool.search(query=query, num_results=3)
+            results = tool.search(query=query, num_results=5)
             
             if results and len(results) > 0:
                 print(f"    ✓ Got {len(results)} results")

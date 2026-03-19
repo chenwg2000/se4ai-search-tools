@@ -37,17 +37,19 @@ def save_results(tool_name, query, results):
 
 
 def test_tavily_search():
-    """Test Tavily search with 3 different queries."""
+    """Test Tavily search with 5 different queries."""
     print("\n  Testing Tavily Search Tool")
     print("  " + "-" * 50)
-    
+
     tool = TavilySearchTool()
     print(f"  API Key: {tool.api_key[:20]}...")
-    
+
     queries = [
-        ("AI Technology", "What is Model Context Protocol?"),
-        ("Current Events", "Latest AI news 2025"),
-        ("Programming", "Python async/await tutorial"),
+        ("AI News", "OpenAI GPT-5 release updates March 2026"),
+        ("AI Marketing", "How are brands using generative AI for advertising campaigns?"),
+        ("Market Trends", "Nvidia Blackwell GPU sales and AI chip market share 2026"),
+        ("Business Strategy", "Best AI tools for content marketing and SEO in 2026"),
+        ("Policy & Regulation", "EU AI Act enforcement updates and impact on businesses 2026"),
     ]
     
     all_passed = True
@@ -57,7 +59,7 @@ def test_tavily_search():
         print(f"\n  Test: {name}")
         print(f"  Query: '{query}'")
         
-        results = tool.search(query=query, num_results=3)
+        results = tool.search(query=query, num_results=5)
         
         if results and len(results) > 0:
             print(f"    ✓ Got {len(results)} results")

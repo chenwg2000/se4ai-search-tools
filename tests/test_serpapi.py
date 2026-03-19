@@ -39,17 +39,19 @@ def save_results(tool_name, query, results, engine=None, location=None):
 
 
 def test_serpapi_search():
-    """Test SerpAPI search with 3 different queries."""
+    """Test SerpAPI search with 5 different queries."""
     print("\n  Testing SerpAPI Search Tool")
     print("  " + "-" * 50)
-    
+
     tool = SerpAPISearchTool()
     print(f"  API Key: {tool.api_key[:20]}...")
-    
+
     queries = [
-        ("Google Search", "What is Model Context Protocol?", "google", None),
-        ("Bing Search", "Anthropic MCP documentation", "bing", None),
-        ("Location-based", "weather today", "google", "New York, United States"),
+        ("AI Startup News", "AI startup funding and acquisitions news March 2026", "google", None),
+        ("Marketing Tools", "top AI marketing automation tools comparison 2026", "bing", None),
+        ("Local Business", "AI tools for small business marketing", "google", "New York, United States"),
+        ("Product Launch", "Google Gemini vs Claude vs ChatGPT comparison 2026", "google", None),
+        ("Social Media", "social media marketing trends AI 2026", "bing", None),
     ]
     
     all_passed = True
@@ -62,7 +64,7 @@ def test_serpapi_search():
         if location:
             print(f"  Location: {location}")
         
-        kwargs = {"query": query, "num_results": 3, "engine": engine}
+        kwargs = {"query": query, "num_results": 5, "engine": engine}
         if location:
             kwargs["location"] = location
         

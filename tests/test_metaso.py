@@ -51,9 +51,11 @@ def test_metaso_search():
     print(f"  API Key: {tool.api_key[:30]}...")
     
     queries = [
-        ("Chinese AI", "什么是MCP协议?", "webpage"),
-        ("Academic Paper", "大语言模型 研究进展", "paper"),
-        ("Document Search", "Python机器学习实践", "document"),
+        ("AI Market News", "AI大模型商业化落地最新案例2026", "webpage"),
+        ("Marketing Research", "生成式AI广告创意与营销自动化研究", "paper"),
+        ("Competitive Intel", "AI搜索引擎市场竞争格局分析", "webpage"),
+        ("Business Docs", "企业AI数字化转型实践指南", "document"),
+        ("Policy News", "人工智能治理与监管最新政策动态", "webpage"),
     ]
     
     all_passed = True
@@ -65,7 +67,7 @@ def test_metaso_search():
         print(f"  Scope: {scope}")
         
         try:
-            results = tool.search(query=query, num_results=3, scope=scope)
+            results = tool.search(query=query, num_results=5, scope=scope)
             
             if results and len(results) > 0:
                 print(f"    ✓ Got {len(results)} results")
